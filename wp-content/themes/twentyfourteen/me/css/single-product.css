@@ -1,0 +1,443 @@
+/* line 2, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\000032}}
+#main #content-sidebar {
+  display: block;
+  width: 22%;
+  float: left;
+}
+/* line 7, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\000037}}
+#main #primary {
+  display: block;
+  width: 78%;
+  float: left;
+}
+/* line 13, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000313}}
+#main #primary #content .tfwc .woocommerce-breadcrumb {
+  display: block;
+  height: 40px;
+  background-color: #e5e8e6;
+  color: #4D767C;
+  padding-left: 20px;
+}
+/* line 19, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000319}}
+#main #primary #content .tfwc .woocommerce-breadcrumb .node-bread {
+  display: table;
+  min-width: 60px;
+  height: 40px;
+  float: left;
+}
+/* line 25, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000325}}
+#main #primary #content .tfwc .woocommerce-breadcrumb .node-bread a {
+  text-decoration: none;
+  color: #4D767C;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 32, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000332}}
+#main #primary #content .tfwc .woocommerce-breadcrumb .delimiter {
+  display: table;
+  min-width: 10px;
+  height: 40px;
+  float: left;
+}
+/* line 37, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000337}}
+#main #primary #content .tfwc .woocommerce-breadcrumb .delimiter a {
+  text-decoration: none;
+  color: #4D767C;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 46, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000346}}
+#main #primary #content .tfwc .product .images {
+  display: block;
+  float: left;
+  width: 50%;
+  min-height: 300px;
+}
+/* line 51, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000351}}
+#main #primary #content .tfwc .product .images > a {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
+/* line 56, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000356}}
+#main #primary #content .tfwc .product .images > a img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+/* line 62, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000362}}
+#main #primary #content .tfwc .product .images .thumbnails {
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+/* line 66, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000366}}
+#main #primary #content .tfwc .product .images .thumbnails .inner-thumbnails {
+  display: block;
+  min-height: 80px;
+  margin: 0px auto;
+  width: 80%;
+}
+/* line 72, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000372}}
+#main #primary #content .tfwc .product .images .thumbnails .inner-thumbnails a {
+  border: 1px solid #FFF484;
+  padding: 2px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+}
+/* line 80, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000380}}
+#main #primary #content .tfwc .product .images .thumbnails .inner-thumbnails a img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+/* line 91, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000391}}
+#main #primary #content .tfwc .product .summary {
+  display: block;
+  float: left;
+  width: 50%;
+  min-height: 300px;
+}
+/* line 97, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\0000397}}
+#main #primary #content .tfwc .product .summary .product_title {
+  font-family: "Arial", Arial, "Helvetica", Helvetica, sans-serif;
+  color: #8370FF;
+}
+/* line 101, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003101}}
+#main #primary #content .tfwc .product .summary .price {
+  padding: 10px;
+}
+/* line 103, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003103}}
+#main #primary #content .tfwc .product .summary .price span {
+  padding: 20px;
+  color: #FF282C;
+  font-size: 22px;
+}
+/* line 111, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003111}}
+#main #primary #content .tfwc .product .summary div[itemprop="description"] p {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 119, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003119}}
+#main #primary #content .tfwc .product .summary form.cart div.quantity input.input-text {
+  display: block;
+  height: 33px;
+  width: 59px;
+  float: left;
+  margin-right: 13px;
+}
+/* line 171, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003171}}
+.single_add_to_cart_button {
+  -moz-box-shadow: inset 0px 1px 0px 0px #cf866c;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #cf866c;
+  box-shadow: inset 0px 1px 0px 0px #cf866c;
+  background-color: #cf7e6a;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #942911;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  padding: 9px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #854629;
+}
+/* line 189, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003189}}
+.single_add_to_cart_button:hover {
+  background-color: #bc3315;
+}
+/* line 192, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003192}}
+.single_add_to_cart_button:active {
+  position: relative;
+  top: 1px;
+}
+/* line 225, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003225}}
+.woocommerce-tabs {
+  display: block;
+  width: 100%;
+  float: left;
+}
+/* line 228, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003228}}
+.woocommerce-tabs ul.tabs {
+  display: block;
+  width: 100%;
+  min-height: 500px;
+}
+/* line 230, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003230}}
+.woocommerce-tabs ul.tabs .panel {
+  display: block;
+  float: left;
+  width: 100%;
+}
+/* line 235, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003235}}
+.woocommerce-tabs ul.tabs .panel h2 {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #3690c4;
+  float: left;
+}
+/* line 245, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003245}}
+.woocommerce-tabs ul.tabs .panel table {
+  display: block;
+  width: 100%;
+  min-height: 180px;
+  float: left;
+}
+/* line 248, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003248}}
+.woocommerce-tabs ul.tabs .panel table tbody {
+  display: block;
+  width: 100%;
+  min-height: 180px;
+}
+/* line 250, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003250}}
+.woocommerce-tabs ul.tabs .panel table tbody tr {
+  display: block;
+  width: 100%;
+  min-height: 42px;
+}
+/* line 252, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003252}}
+.woocommerce-tabs ul.tabs .panel table tbody tr th,
+.woocommerce-tabs ul.tabs .panel table tbody tr td {
+  box-sizing: border-box;
+  display: block;
+  width: 50%;
+  min-height: 42px;
+  float: left;
+  border: 1px solid #cdd8d5;
+}
+/* line 258, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003258}}
+.woocommerce-tabs ul.tabs .panel table tbody tr th,
+.woocommerce-tabs ul.tabs .panel table tbody tr td p {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 266, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003266}}
+.woocommerce-tabs ul.tabs .panel .commentlist {
+  display: block;
+  width: 100%;
+  float: left;
+}
+/* line 268, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003268}}
+.woocommerce-tabs ul.tabs .panel .commentlist li {
+  display: block;
+  width: 100%;
+  float: left;
+}
+/* line 271, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003271}}
+.woocommerce-tabs ul.tabs .panel .commentlist li .comment_container {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  background-color: #bac7fc;
+  border: 1px solid #59abd1;
+}
+/* line 279, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003279}}
+.woocommerce-tabs ul.tabs .panel .commentlist li .comment_container img {
+  display: block;
+  float: left;
+  padding: 37px;
+}
+/* line 284, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003284}}
+.woocommerce-tabs ul.tabs .panel .commentlist li .comment_container .comment-text {
+  display: block;
+  width: 80%;
+  min-height: 135px;
+  float: left;
+  padding: 10px;
+}
+/* line 287, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003287}}
+.woocommerce-tabs ul.tabs .panel .commentlist li .comment_container .comment-text .star-rating {
+  color: #bf1515;
+  font-size: 18px;
+  display: block;
+}
+/* line 295, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003295}}
+.woocommerce-tabs ul.tabs .panel .commentlist li .comment_container .comment-text p.meta {
+  display: block;
+  background-color: #e0e8d3;
+  height: 30px;
+}
+/* line 300, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003300}}
+.woocommerce-tabs ul.tabs .panel .commentlist li .comment_container .comment-text div.description {
+  display: block;
+  min-height: 60px;
+  background-color: #e0e8d3;
+}
+/* line 310, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003310}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper {
+  display: block;
+  width: 100%;
+  float: left;
+}
+/* line 312, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003312}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form {
+  display: block;
+  width: 100%;
+  float: left;
+}
+/* line 314, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003314}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond {
+  display: block;
+  width: 100%;
+  float: left;
+}
+/* line 316, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003316}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond #reply-title {
+  color: #89938e;
+  text-align: center;
+  background: url(../img/light-grey-background.png) no-repeat top left;
+  display: block;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 329, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003329}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form {
+  display: block;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #efefef;
+}
+/* line 335, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003335}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form .comment-form-rating,
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form .comment-form-author,
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form .comment-form-email {
+  display: block;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+}
+/* line 342, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003342}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form .comment-form-rating label,
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form .comment-form-author label,
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form .comment-form-email label {
+  font: normal 75%/1.5 Helvetica, Arial, Verdana, sans-serif;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* line 349, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003349}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form .comment-form-comment {
+  display: block;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+}
+/* line 355, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003355}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form .comment-form-comment textarea {
+  background-image: url(../img/bg.png);
+  border: 1px solid #6297BC;
+  display: block;
+  float: left;
+  width: 100%;
+}
+/* line 364, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003364}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form p.form-submit {
+  display: block;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+/* line 370, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003370}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form p.form-submit input.submit {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 22px 10px 22px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+  display: block;
+  float: right;
+  margin-top: 15px;
+}
+/* line 392, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\single-product.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/single-product\.less}line{font-family:\00003392}}
+.woocommerce-tabs ul.tabs .panel #review_form_wrapper #review_form #respond form p.form-submit input.submit:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+/* line 1, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\000031}}
+a {
+  text-decoration: none;
+}
+/* line 4, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\000034}}
+#content-sidebar {
+  display: block;
+  width: 22%;
+  float: left;
+}
+/* line 9, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\000039}}
+#content-sidebar aside {
+  margin-bottom: 5px;
+  border: 1px solid #89B8D9;
+}
+/* line 13, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000313}}
+#content-sidebar h1 {
+  font-size: 21px;
+  background-color: #1E557C;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px 8px 8px 7px;
+  text-align: CENTER;
+}
+/* line 21, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000321}}
+#content-sidebar ul li {
+  list-style: none;
+  display: block;
+  height: 40px;
+  border-bottom: 1px dashed #1e557c;
+}
+/* line 26, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000326}}
+#content-sidebar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1E557C;
+  text-align: center;
+  display: table-cell;
+  height: 40px;
+  width: 245px;
+  vertical-align: middle;
+}

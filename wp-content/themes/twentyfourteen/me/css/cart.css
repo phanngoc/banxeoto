@@ -1,0 +1,158 @@
+/* line 14, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000314}}
+#primary {
+  display: block;
+  width: 76%;
+  min-height: 500px;
+  float: left;
+}
+/* line 16, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000316}}
+#primary #content {
+  display: block;
+  width: 100%;
+  min-height: 500px;
+  float: left;
+}
+/* line 18, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000318}}
+#primary #content article {
+  display: block;
+  width: 100%;
+  min-height: 500px;
+  float: left;
+}
+/* line 21, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000321}}
+#primary #content article header h1.entry-title {
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #e5e8e6;
+  color: #4D767C;
+  padding-left: 20px;
+}
+/* line 33, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000333}}
+#primary #content article .entry-content .woocommerce form table {
+  margin: 10px auto;
+  width: 80%;
+}
+/* line 36, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000336}}
+#primary #content article .entry-content .woocommerce form table thead {
+  background-color: #2f9b0a;
+}
+/* line 40, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000340}}
+#primary #content article .entry-content .woocommerce form table thead tr th {
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+}
+/* line 49, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000349}}
+#primary #content article .entry-content .woocommerce form table tbody tr td {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #c1bdbd;
+}
+/* line 53, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000353}}
+#primary #content article .entry-content .woocommerce form table tbody tr td img {
+  width: 95px;
+  height: 95px;
+  margin-top: 5px;
+}
+/* line 60, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000360}}
+#primary #content article .entry-content .woocommerce form table tbody .input-text {
+  background: transparent url(http://html-generator.weebly.com/files/theme/input-text-8.png) repeat-x;
+  border: 1px solid #999;
+  outline: 0;
+  height: 25px;
+  width: 173px;
+}
+/* line 67, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000367}}
+#primary #content article .entry-content .woocommerce form table tbody .button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 10px 8px 11px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+/* line 89, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000389}}
+#primary #content article .entry-content .woocommerce .cart-collaterals .cart_totals {
+  display: block;
+  float: right;
+  width: 30%;
+  margin-right: 10%;
+  margin-bottom: 25px;
+}
+/* line 95, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\0000395}}
+#primary #content article .entry-content .woocommerce .cart-collaterals .cart_totals h2 {
+  font-size: 18px;
+  padding: 8px;
+  background-color: #2f9b0a;
+  color: white;
+}
+/* line 101, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\00003101}}
+#primary #content article .entry-content .woocommerce .cart-collaterals .cart_totals table {
+  width: 100%;
+}
+/* line 105, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\00003105}}
+#primary #content article .entry-content .woocommerce .cart-collaterals .cart_totals table tbody tr td {
+  border: 1px solid black;
+}
+/* line 107, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\00003107}}
+#primary #content article .entry-content .woocommerce .cart-collaterals .cart_totals table tbody tr td span {
+  color: #e2892f;
+  padding: 5px;
+}
+/* line 112, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\00003112}}
+#primary #content article .entry-content .woocommerce .cart-collaterals .cart_totals table tbody tr th {
+  color: #e2892f;
+  padding: 10px;
+  border: 1px solid black;
+}
+/* line 120, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\00003120}}
+#primary #content article .entry-content .woocommerce .cart-collaterals .cart_totals div.wc-proceed-to-checkout {
+  margin-top: 20px;
+}
+/* line 122, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\cart.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/cart\.less}line{font-family:\00003122}}
+#primary #content article .entry-content .woocommerce .cart-collaterals .cart_totals div.wc-proceed-to-checkout a.checkout-button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 10px 8px 11px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}

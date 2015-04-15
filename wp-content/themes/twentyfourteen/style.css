@@ -1,0 +1,181 @@
+/*
+Theme Name: Twenty Fourteen
+Theme URI: http://wordpress.org/themes/twentyfourteen
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+*{
+    padding:0px;
+    margin:0px;
+}
+.header-main{
+    display: block;
+    width: 100%;
+    height : 186px;
+}
+.header-main .site-title a{
+  display: block;
+  float : left;
+  width: 50%;
+}
+.header-main .site-title a img{
+    display:block;
+    width:100%;
+    height:186px;
+}
+#header-nav{
+  display: block;
+  width: 100%;
+  margin-top: 1px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  height: 36px;
+  background-color: #70A8CD;
+}
+#primary-navigation{
+    display: block;
+    width: 72%;
+    float: left;
+
+}
+#primary-navigation .nav-menu{
+    display: block;
+    width: 100%;
+    height: 36px;
+
+}
+#primary-navigation ul {
+    display: block;
+    height: 35px;
+}
+#primary-navigation ul li{
+    list-style: none;
+    display: table;
+    height : 35px;
+    width: 140px;
+    float:left;
+    background: url(me/img/item-menu.jpg) no-repeat top left;
+    margin-right: 5px;
+}
+#primary-navigation ul li a{
+    display: table-cell;
+    text-align: center;
+    font-weight: bold;
+    margin:0px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color:white;
+}
+#search-container{
+    display: block;
+    float : left;
+    margin-left: 12px;
+}
+.search-box{
+    display: block;
+    width : 100%;
+    height : 100%;
+}
+footer#colophon{
+    clear: both;
+    width: 100%;
+    display: block;
+    height: 160px;
+}
+footer#colophon .site-info{
+    display: block;
+    width: 100%;
+    height : 220px;
+    background-color: #363D41;
+    color : white;
+}
+footer#colophon .site-info a{
+    
+}
+.columns{
+  width : 30%;
+  display:block;
+  float : left;
+  padding-left: 10px;
+}
+.columns .title{
+   font-size : 20px;
+   font-weight : bold;
+   font-size : 20px;
+   font-weight : bold;
+   padding : 10px;
+   text-align: center;
+   border-bottom : 1px dashed #737e84;
+}
+.columns ul li{
+    list-style: none;
+    display: block;
+    padding : 5px;
+}
+.columns ul li a{
+    text-decoration: none;
+    color : white;
+   
+}
+/*style part search*/
+.search-form
+{
+    display: table;
+    height: 35px;
+    overflow: hidden; /* Clear floats */
+    position: relative;
+    width: 226px;
+}
+.search-field, 
+.search-submit {
+    float: left;
+}
+
+.search-field {
+    padding: 5px 9px;
+    width: 180px;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+    height : 35px;
+}
+
+/* ----------------------- */
+
+.search-submit
+{       
+  position: absolute;
+  background: url(me/img/search-icon-small.png) no-repeat top left;
+  width: 35px;
+  height : 35px;
+  top : 0px;
+  left : 190px;
+  outline: 0;
+  border : 0;
+}
+
+.search-submit:hover {       
+  
+}   
+
+.search-submit:active {       
+    background: #95d788;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+.search-submit::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+
