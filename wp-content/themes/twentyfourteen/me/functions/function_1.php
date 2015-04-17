@@ -228,6 +228,10 @@ function add_resource_single_product()
     {
         wp_enqueue_style( 'checkout', get_template_directory_uri() . '/me/css/checkout.css');
     }
+    if(is_page_template('me/mainshop.php')|| is_tax('nha-san-xuat') || is_tax('loai-xe') )
+    {
+        wp_enqueue_style( 'mainshop', get_template_directory_uri() . '/me/css/style_me.css');
+    }
 }
 add_action('wp_enqueue_scripts','add_resource_single_product');
 
@@ -238,9 +242,6 @@ function custom_override_checkout_fields( $fields ) {
      unset($fields['billing']['billing_state']);
      unset($fields['billing']['billing_postcode']);
      unset($fields['shipping']);
-     echo "<pre>";
-     //var_dump($fields);
-     echo "</pre>";
      return $fields;
 }
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );

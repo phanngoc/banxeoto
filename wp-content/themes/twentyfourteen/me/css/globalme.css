@@ -5,19 +5,212 @@ a {
 }
 /* line 4, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\000034}}
+.header-main {
+  display: block;
+  width: 100%;
+  height: 186px;
+}
+/* line 8, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\000038}}
+.header-main .site-title a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+/* line 12, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000312}}
+.header-main .site-title a img {
+  display: block;
+  width: 100%;
+  height: 186px;
+}
+/* line 21, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000321}}
+#header-nav {
+  display: block;
+  width: 100%;
+  margin-top: 1px;
+  height: 46px;
+  background-color: #d8a420;
+}
+/* line 28, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000328}}
+#header-nav #primary-navigation {
+  display: block;
+  width: 72%;
+  float: left;
+}
+/* line 32, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000332}}
+#header-nav #primary-navigation .nav-menu {
+  display: block;
+  width: 100%;
+  height: 46px;
+}
+/* line 37, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000337}}
+#header-nav #primary-navigation .nav-menu ul {
+  display: block;
+  height: 46px;
+}
+/* line 40, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000340}}
+#header-nav #primary-navigation .nav-menu ul li {
+  list-style: none;
+  display: table;
+  height: 46px;
+  width: 140px;
+  float: left;
+}
+/* line 50, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000350}}
+#header-nav #primary-navigation .nav-menu ul li a {
+  display: table-cell;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 62, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000362}}
+#header-nav #primary-navigation .nav-menu ul li:hover {
+  background-color: #b5891b;
+}
+/* line 71, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000371}}
+#search-container {
+  display: block;
+  float: left;
+  margin-left: 12px;
+}
+/* line 76, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000376}}
+.search-box {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 81, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000381}}
+footer#colophon {
+  clear: both;
+  width: 100%;
+  display: block;
+  height: 160px;
+}
+/* line 86, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000386}}
+footer#colophon .site-info {
+  display: block;
+  width: 100%;
+  height: 220px;
+  background-color: #363D41;
+  color: white;
+}
+/* line 95, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000395}}
+.columns {
+  width: 30%;
+  display: block;
+  float: left;
+  padding-left: 10px;
+}
+/* line 100, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003100}}
+.columns .title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px dashed #737e84;
+}
+/* line 109, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003109}}
+.columns ul li {
+  list-style: none;
+  display: block;
+  padding: 5px;
+}
+/* line 113, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003113}}
+.columns ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* line 120, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003120}}
+.search-form {
+  display: table;
+  height: 46px;
+  overflow: hidden;
+  /* Clear floats */
+  position: relative;
+  width: 226px;
+}
+/* line 128, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003128}}
+.search-field,
+.search-submit {
+  float: left;
+}
+/* line 133, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003133}}
+.search-field {
+  width: 180px;
+  border: 1px solid #a4c3ca;
+  font: normal 13px 'trebuchet MS', arial, helvetica;
+  background: #f1f1f1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 #ffffff;
+  height: 35px;
+  position: absolute;
+  top: 5px;
+}
+/* ----------------------- */
+/* line 146, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003146}}
+.search-submit {
+  position: absolute;
+  background: url(../img/search-icon-small.png) no-repeat top left;
+  width: 35px;
+  height: 35px;
+  top: 6px;
+  left: 190px;
+  outline: 0;
+  border: 0;
+}
+/* line 162, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003162}}
+.search-submit:active {
+  background: #95d788;
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+/* line 168, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003168}}
+.search-submit::-moz-focus-inner {
+  border: 0;
+  /* Small centering fix for Firefox */
+}
+/* line 174, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003174}}
 #content-sidebar {
   display: block;
   width: 22%;
   float: left;
 }
-/* line 9, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\000039}}
+/* line 179, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003179}}
 #content-sidebar aside {
   margin-bottom: 5px;
   border: 1px solid #89B8D9;
 }
-/* line 13, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000313}}
+/* line 183, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003183}}
 #content-sidebar h1 {
   font-size: 21px;
   background-color: #1E557C;
@@ -26,16 +219,16 @@ a {
   padding: 8px 8px 8px 7px;
   text-align: CENTER;
 }
-/* line 21, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000321}}
+/* line 191, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003191}}
 #content-sidebar ul li {
   list-style: none;
   display: block;
   height: 40px;
   border-bottom: 1px dashed #1e557c;
 }
-/* line 26, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\0000326}}
+/* line 196, C:\xampp\htdocs\wptest\wp-content\themes\twentyfourteen\me\less\globalme.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/wptest\/wp-content\/themes\/twentyfourteen\/me\/less\/globalme\.less}line{font-family:\00003196}}
 #content-sidebar ul li a {
   text-decoration: none;
   text-transform: uppercase;

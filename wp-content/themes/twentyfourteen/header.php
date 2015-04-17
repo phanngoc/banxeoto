@@ -49,7 +49,7 @@
 		</div>
             <div id="header-nav">
                 <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+				<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_class' => 'nav-menu' ) ); ?>
 		</nav>
 		<div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">

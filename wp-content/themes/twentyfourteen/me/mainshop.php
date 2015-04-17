@@ -5,7 +5,7 @@ Template Name: My Custom Page
 
 
 get_header(); ?>
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()."/me/css/style_me.css"; ?>"/>
+
 <div id="main-content" class="main-content">
 
 	<div id="primary" class="content-area">
