@@ -1,0 +1,25 @@
+/* 
+    Created on : Jun 5, 2014, 12:58:19 PM
+    Author     : InkThemes
+*/
+.ink_image{
+  margin: 50px 0px 0px 40px;
+}
+
+.image_path{
+    width: 280px;
+    margin: 20px 10px 20px 0px;   
+}
+
+#upload_image{
+     margin: 20px 4px 20px 0px;
+}
+
+#show_upload_preview{
+    margin-bottom: 20px;
+}
+
+#remove_image{
+    margin-left: 15px;
+   
+}

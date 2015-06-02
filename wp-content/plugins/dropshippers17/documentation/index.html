@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>WooCommerce Dropshippers Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h3 class="center alt">&ldquo;WooCommerce Dropshippers&rdquo; Documentation by &ldquo;ArticNet&rdquo; v1.7</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;WooCommerce Dropshippers&rdquo;</h1>
+		<div class="borderTop">
+		  <div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 03/05/2014<br>
+					By: ArticNet<br>
+					Email: <a href="mailto:info@articnet.jp">info@articnet.jp</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing WooCommerce Dropshippers. If you have any questions that are beyond the scope of this help file, please feel free to email via our user page contact form <a href="#">here</a>. Thank you!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#installation-upgrade">Upgrading from 1.0</a></li>
+			<li><a href="#configuration">Configuration</a></li>
+			<li><a href="#assigntherole">Assign the dropshipper role to users</a></li>
+			<li><a href="#dropshipperslist">Dropshippers list</a></li>
+			<li><a href="#assigndroptorole">Assign products to dropshippers</a></li>
+			<li><a href="#dropshippersview">The Dropshipper dashboard</a></li>
+			<li><a href="#adminsview">The Admin dashboard</a></li>
+			<li><a href="#changelog">Changelog</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="installation"><strong>A) Installation</strong> - <a href="#toc">top</a></h3>
+		<p>Extract woocommerce-dropshippers.zip and upload it to your WordPress plugin directory (usually /wp-content/plugins ), or upload the zip file directly from the WordPress plugins page. Once completed, visit your plugins page again and activate &quot;<strong>WooCommerce Dropshippers</strong>&quot;</p>
+		<p>Upon successful activation, the user role "Dropshipper" will be available from the users menu.</p>
+		<hr> 
+		
+		<h3 id="installation-upgrade"><strong>B) Upgrading from 1.0</strong> - <a href="#toc">top</a></h3>
+		<p>Since version 1.0 many changes have occurred, including a lot of additions to the custom role &quot;Dropshipper&quot;. Because of this to upgrade from version 1.0 you must first disable the plugin, copy the new one via FTP or from the plugins page and re-enable the Dropshipper plugin.</p>
+		<p>Once the plugin is activated, you might need to re-assign the Dropshippers to the products.</p>
+		<hr>
+		
+		<h3 id="configuration"><strong>C) Configuration</strong> - <a href="#toc">top</a></h3>
+		<p>In the WordPress admin panel, select <strong>Settings &rarr; WooCommerce Dropshippers</strong>.</p>
+		<p><img src="assets/images/01.png" /></p>
+		<p>Here you can choose whether the Dropshippers affiliated with your website will be able to see the total price of their orders. This means that from their panel, they will see the full price of the products (their commission and the resell price you put on the store).<br/><br/>The second field is the billing address for the Dropshippers. It will be shown on the orders they get via mail, while the shipping address will be the address specified by the user when placing the order (just like every other order on Woocommerce).<br/><br/>The third field controls the ability of the dropshippers to see the customer's email address from their orders list<br/><br/>The next field does the same but for the customer's phone number.<br/><br/>The next two fields are used to display a custom logo and custom footer text in the packing slips that will be printed by dropshippers.<br/><br/>The last field is the email used to notify the admin that a dropshipper has shipped an order.</p>
+
+		<hr>
+
+		<h3 id="assigntherole"><strong>D) Assigning the dropshipper role to users</strong> - <a href="#toc">top</a></h3>
+		<p>First of all, we need to assign the Dropshipper role to our selected users. To accomplish this, in the Admin dashboard go to <strong>Users &rarr; All Users</strong>.</br>Once here, select the user that you want to turn into a dropshipper. In this example we will use the user &quot;John&quot; with the role <strong>Subscriber</strong>.<br/>Hover on the name and select "Edit" to go into the user edit screen.</p>
+		<p><img width="100%" src="assets/images/02.png" /></p>
+		<p>Change the role to &quot;Dropshipper&quot; and click the blue button &quot;Update User&quot; to save the new role. The user John is now officially a <strong>Dropshipper</strong> and we can assign him to various product in the market.</p>
+		<p><img src="assets/images/03.png" /></p>
+
+		<hr>
+
+		<h3 id="dropshipperslist"><strong>E) Dropshippers List</strong> - <a href="#toc">top</a></h3>
+		<p>Users who have become Dropshipper, will now be displayed in a separated screen under <strong>Users &rarr; Dropshippers list</strong>. From here you can keep an eye on all dropshipper earnings. <br> If a dropshipper has set his <strong>PayPal</strong> email address from his profile, you will see the button and you will be able to send him/her a payment directly from this page. Otherwise you can choose to pay a dropshipper the way you prefer outside the website (bank transfer, check, etc...). The button reset earnings will allow you to reset the earnings of a dropshipper once the payment is done.</p>
+		<p><img width="100%" src="assets/images/09.png" /></p>
+
+		<hr>
+
+		<h3 id="assigndroptorole"><strong>F) Assigning products to dropshippers</strong> - <a href="#toc">top</a></h3>
+		<p>To assign a product to one dropshipper we need to go to the product edit page. There will be a new widget called &quot;Dropshipper&quot;(If you do not see that, go on the top right corner of the product page and under &quot;Screen Options&quot; put a check mark on  &quot;Dropshipper&quot;). To assign the product to a specific dropshipper user, just select his name from the list of dropshippers. Then click &quot;Update&quot; to save the changes made.<br>You can set a <strong>Dropshipper price</strong> in both Simple products and Variable products. The price you set here will be used to calculate the amount owed to the dropshipper for each product (or product variation) sold.</p>
+		<p><strong>Example: Simple product</strong><br><img width="100%" src="assets/images/10.png" /></p>
+		<p><strong>Example: Variable product</strong><br><img width="100%" src="assets/images/04.png" /></p>
+
+		<hr>
+
+		<h3 id="dropshippersview"><strong>G) The dropshipper's view</strong> - <a href="#toc">top</a></h3>
+		<p>Once logged in as a dropshipper, the user will land on a regular Subscriber Dashboard but with a new widget: <strong>WooCommerce Dropshipper Right Now</strong>.<br/>With this widget the dropshipper is able to see how many products he has sold on the market.</p>
+		<p><img src="assets/images/05.png" /></p>
+		<p>In addition to the widget, there will also be two new pages: <strong>Dropshipper Orders</strong> and <strong>Dropshipper Settings</strong>.</p>
+		<h3>Dropshipper Orders</h3>
+		<p>In the <strong>Dropshipper Orders</strong> page a dropshipper can view all orders placed on his products. New dropshippers orders will be visible <strong>when the payment is completed</strong> (order status "<strong>processing</strong>").<br/>Once the order is visible on the dropshipper's page, the dropshipper can notify the admin of the shipment of the product by clicking the button <strong>Mark as Shipped</strong>. The mail sent to the admin will containt the order number, the dropshipper name and all the shipping information entered by the dropshipper.</p>
+		<p><img width="100%" src="assets/images/07.png" /></p>
+		<p>By pressing the button <strong>Edit Shipping Info</strong> you will get a popup window containing all the information that a dropshipper can report to the admin.</p>
+		<p><img src="assets/images/12.png" /></p>
+		<p>By pressing the button <strong>Print packing slip</strong> you will get the following popup window containing the packing slip ready to be printed.</p>
+		<p><img style="border: 1px solid black;" src="assets/images/11.png" /></p>
+
+		<h3>Dropshipper Settings</h3>
+		<p>In the <strong>Dropshipper Settings</strong> page a dropshipper can set his PayPal email (if he has a PayPal account) and choose the currency displayed in his order page. Currencies that differs from the default currency of the shop will be automatically converted via Yahoo! Finance.</p>
+		<p><img src="assets/images/06.png" /></p>
+
+		<hr>
+
+		<h3 id="adminsview"><strong>H) The admin's view</strong> - <a href="#toc">top</a></h3>
+		<p>The regular order page now shows the column <strong>Dropshippers</strong>.<br/>In this column an admin is able to see all the dropshippers involved in an order and who have already shipped their merchandise.</p>
+		<p><img width="100%" src="assets/images/08.png" /></p>
+		<p>The dropshippers' status can be <strong>Completed</strong> (blue icon) or <strong>Processing</strong> (green icon).</p>
+
+		<hr>
+		
+		<h3 id="changelog"><strong>I) Changelog</strong> - <a href="#toc">top</a></h3>
+		<pre>v1.7 - 26/09/2014
+		- Added Multilanguage support for custom translation with .po/.mo files
+		- Added field for custom email for dropshippers' notifications in admin panel
+		- Added the ability for dropshippers to enter information about shipping for the admin in their orders
+		- Added dropshipper shipping information in notification emails and order view in admin panel
+		- Improved the dropshipper orders page to be more easy to read
+		</pre>
+		<pre>v1.6 - 10/06/2014
+		- Added packing slip for Dropshippers
+		- Added fields for packing slip to the admin panel
+		</pre>
+		<pre>v1.5.1 - 29/05/2014
+		- Bug fixing
+		</pre>
+		<pre>v1.5 - 15/04/2014
+		- Added currency converter setting in the Dropshipper dashboard
+		- Added "dropshipper price" field in products and products variations
+		- Added Dropshipper total balance of sold goods
+		- Added Dropshippers list in Admin console with Balance, email and PayPal payment
+		- Added "Show telephone" switch to the admin panel
+		- Added "Show email" switch to the admin panel
+		- Added Dropshipper settings page with currency selector and email field for PayPal
+		</pre>
+		<pre>v1.0 - 03/05/2014
+		- First stable release
+		</pre>
+		<p><strong>&copy; ArticNet 2014</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+
+	</div><!-- end div .container -->
+</body>
+</html>
